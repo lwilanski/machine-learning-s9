@@ -1,0 +1,20 @@
+[project]
+name = "lab01-regresja"
+version = "0.1.0"
+description = "Laboratorium: regresja liniowa, regularyzacja i strojenie hiperparametrów na zbiorze Melbourne Housing"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "scipy>=1.13",
+    "seaborn>=0.13",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "jupyterlab>=4.2",
+]
