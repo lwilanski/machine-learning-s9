@@ -1,0 +1,20 @@
+[project]
+name = "lab02-klasyfikacja"
+version = "0.1.0"
+description = "Laboratorium: klasyfikacja, niezbalansowane klasy, modele drzewiaste i dobór progu na zbiorze Adult Census Income"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "lightgbm>=4.5",
+    "matplotlib>=3.8",
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scikit-learn>=1.6",
+    "scipy>=1.13",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29",
+    "jupyterlab>=4.2",
+]
